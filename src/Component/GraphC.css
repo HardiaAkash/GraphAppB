@@ -1,0 +1,73 @@
+.boxc_flex{
+    width: 600px;
+    height: 400px;
+    
+    position: relative;
+    margin: 0 auto;
+}
+.vv{
+    background-color: black;
+}
+.dd{
+    position: absolute;
+    top: 0;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+}
+.h4a{
+    position: absolute;
+    transform: rotate(250deg);
+    width: 50px;
+    height: 30px;
+    bottom: 55px;
+    left: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h4b{
+    position: absolute;
+    transform: rotate(280deg);
+    width: 80px;
+    height: 30px;
+    bottom: 165px;
+    left: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h4c{
+    position: absolute;
+    transform: rotate(310deg);
+    width: 100px;
+    height: 30px;
+    top: 100px;
+    left: 100px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+@media (max-width: 767px) {
+    .boxc_flex{
+        width: 400px;
+        height: 400px;
+        
+        position: relative;
+        margin: 0 auto;
+    }
+    .dd{
+        position: absolute;
+        top: 0;
+        margin: 0 auto;
+        width: 400px;
+        height: 400px;
+    }
+}
+@media (max-width: 410px) {
+    .boxc_flex{
+        width: 300px;
+        height: 300px;
+        
+     
+    }
+    .dd{
+       
+        width: 300px;
+        height: 300px;
+    }
+}

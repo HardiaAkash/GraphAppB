@@ -1,0 +1,549 @@
+.boxslider {
+    margin: 0 auto;
+    width: 500px;
+    height: 500px;
+    border-left: 3px solid rgba(0, 0, 0, 0.326);
+    border-bottom: 3px solid rgba(0, 0, 0, 0.326);
+    position: relative;
+    /* background-color: brown; */
+}
+
+.rotatebox {
+    transform: rotate(225deg);
+
+    /* margin-top: 200px;
+ margin-left: 50px; */
+    width: 550px;
+    position: absolute;
+    top: 230px;
+    left: 0px;
+    /* background-color: blue; */
+}
+
+.MuiSlider-thumb {
+    width: 30px;
+    height: 30px;
+    background-color: transparent !important;
+    text-shadow: none !important;
+    border-radius: 0px !important;
+    background-image: url("../Image/Mask\ group.svg") !important;
+    background-size: cover;
+}
+
+.MuiSlider-thumb::before {
+    content: none !important;
+
+}
+
+.MuiSlider-rail {
+
+    color: #60badd;
+    opacity: 1;
+
+
+
+}
+
+.MuiSlider-root {
+    height: 8px !important;
+}
+
+.MuiSlider-track {
+    color: white;
+    opacity: 1;
+
+}
+
+.MuiSlider-valueLabel {
+    transform: rotate(135deg) !important;
+    top: 21px !important;
+    border: none !important;
+    background-color: transparent !important;
+    color: black !important;
+
+
+}
+
+.MuiSlider-mark {
+    width: 5px !important;
+    height: 5px !important;
+    color: black;
+
+}
+
+.displaynone {
+    display: none;
+}
+
+.imgB1 {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 100px;
+    left: 2px;
+
+}
+
+.imgB2 {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 180px;
+    left: 83px;
+
+}
+
+.imgB3 {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 257px;
+    left: 165px;
+
+}
+
+.imgB4 {
+    display: block;
+    width: 300px;
+    position: absolute;
+    top: 335px;
+    left: 240px;
+
+}
+
+.imgB5 {
+    display: block;
+    width: 60px;
+    position: absolute;
+    top: 20px;
+    left: 45px;
+}
+
+.a_posi {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    top: 110px;
+    left: 188px;
+    font-weight: 600;
+    width: 95px;
+}
+
+.b_posi {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    top: 190px;
+    width: 95px;
+    left: 270px;
+    font-weight: 600;
+}
+
+.c_posi {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    top: 265px;
+    width: 95px;
+    left: 350px;
+    font-weight: 600;
+}
+
+.d_posi {
+    display: block;
+    font-size: 14px;
+    position: absolute;
+    top: 345px;
+    width: 95px;
+    left: 425px;
+    font-weight: 600;
+}
+
+.a_date_posi {
+    position: absolute;
+    top: 160px;
+    left: 6px;
+}
+
+.a_date_posi p {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.b_date_posi {
+    position: absolute;
+    top: 241px;
+    left: 86px;
+}
+
+.b_date_posi p {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.c_date_posi {
+    position: absolute;
+    top: 313px;
+    left: 168px;
+}
+
+.c_date_posi p {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.d_date_posi {
+    position: absolute;
+    top: 398px;
+    left: 245px;
+}
+
+.d_date_posi p {
+    font-size: 10px;
+    font-weight: 600;
+}
+
+.init_yaxis {
+    position: absolute;
+    top: 40px;
+    left: -40px;
+}
+
+.a_yaxis {
+    position: absolute;
+    top: 120px;
+    left: -40px;
+}
+
+.b_yaxis {
+    position: absolute;
+    top: 200px;
+    left: -40px;
+}
+
+.c_yaxis {
+    position: absolute;
+    top: 275px;
+    left: -40px;
+}
+
+.d_yaxis {
+    position: absolute;
+    top: 354px;
+    left: -40px;
+}
+
+.e_yaxis {
+    position: absolute;
+    top: 433px;
+    left: -40px;
+}
+
+.yaxis_label {
+    position: absolute;
+    top: 50%;
+    left: -105px;
+    transform: rotate(270deg);
+}
+
+.yaxis_label p {
+    font-weight: 600;
+}
+
+.init_xaxis {
+    position: absolute;
+    left: 39px;
+    bottom: -40px;
+    font-size: 10px;
+}
+
+.a_xaxis {
+    position: absolute;
+    left: 126px;
+    bottom: -40px;
+    font-size: 10px;
+}
+
+.b_xaxis {
+    position: absolute;
+    left: 208px;
+    bottom: -40px;
+    font-size: 10px;
+}
+
+.c_xaxis {
+    position: absolute;
+    font-size: 10px;
+    left: 287px;
+    bottom: -40px;
+}
+.d_xaxis{
+    position: absolute;
+    font-size: 10px;
+    left: 365px;
+    bottom: -40px;
+}
+.e_xaxis{
+    position: absolute;
+    font-size: 10px;
+    left: 440px;
+    bottom: -40px;
+}
+.xaxis_label{
+    position: absolute;
+    bottom: -70px;
+    left: 50%;
+    font-weight: 600;
+}
+
+@media (max-width:640px) {
+    .boxslider {
+        width: 400px;
+
+    }
+
+    .scroll_x {
+        overflow-x: scroll;
+    }
+
+    .rotatebox {
+        width: 400px;
+
+    }
+
+    .imgB1 {
+        display: block;
+        width: 180px;
+        position: absolute;
+        top: 153px;
+        left: 25px;
+
+
+    }
+
+    .imgB2 {
+        display: block;
+        width: 180px;
+        position: absolute;
+        top: 210px;
+        left: 85px;
+
+    }
+
+    .imgB3 {
+        display: block;
+        width: 180px;
+        position: absolute;
+        top: 265px;
+        left: 142px;
+
+    }
+
+    .imgB4 {
+        display: block;
+        width: 180px;
+        position: absolute;
+        top: 320px;
+        left: 197px;
+        /* opacity: 0.1; */
+    }
+
+    .imgB5 {
+        display: block;
+        width: 40px;
+        position: absolute;
+        top: 90px;
+        left: 40px;
+    }
+
+    .MuiSlider-valueLabel {
+        top: 10px !important;
+        letter-spacing: 0 !important;
+        line-height: normal !important;
+        background-color: transparent !important;
+        color: black !important;
+
+
+    }
+
+    .a_posi {
+
+        top: 157px;
+        left: 137px;
+        font-size: 10px;
+        width: 55px;
+
+    }
+
+    .b_posi {
+
+        top: 213px;
+        left: 198px;
+        font-size: 10px;
+        width: 55px;
+
+    }
+
+    .c_posi {
+
+        top: 267px;
+        left: 255px;
+        font-size: 10px;
+        width: 55px;
+
+    }
+
+    .d_posi {
+
+        top: 324px;
+        left: 310px;
+        font-size: 10px;
+        width: 55px;
+
+    }
+
+
+    .a_date_posi {
+        position: absolute;
+        top: 188px;
+        left: 27px;
+    }
+
+    .a_date_posi p {
+        font-size: 6px;
+        font-weight: 600;
+    }
+
+    .b_date_posi {
+        position: absolute;
+        top: 246px;
+        left: 88px;
+    }
+
+    .b_date_posi p {
+        font-size: 6px;
+        font-weight: 600;
+    }
+
+    .c_date_posi {
+        position: absolute;
+        top: 298px;
+        left: 144px;
+    }
+
+    .c_date_posi p {
+        font-size: 6px;
+        font-weight: 600;
+    }
+
+    .d_date_posi {
+        position: absolute;
+        top: 358px;
+        left: 199px;
+    }
+
+    .d_date_posi p {
+        font-size: 6px;
+        font-weight: 600;
+    }
+
+    .init_yaxis {
+        top: 100px;
+        left: -40px;
+        font-size: 14px;
+    }
+
+    .a_yaxis {
+        font-size: 14px;
+        top: 160px;
+        left: -40px;
+    }
+
+    .b_yaxis {
+        font-size: 14px;
+        top: 217px;
+        left: -40px;
+    }
+
+    .c_yaxis {
+
+        left: -40px;
+        font-size: 14px;
+
+    }
+
+    .d_yaxis {
+        font-size: 14px;
+        left: -40px;
+        top: 327px;
+    }
+
+    .e_yaxis {
+        font-size: 14px;
+        top: 385px;
+        left: -40px;
+    }
+
+    .yaxis_label {
+        position: absolute;
+        top: 50%;
+        left: -110px;
+    }
+
+    .yaxis_label p {
+        font-weight: 600;
+    }
+
+
+    .init_xaxis {
+        position: absolute;
+        left: 20px;
+        bottom: -50px;
+        font-size: 10px;
+        transform: rotate(315deg);
+    }
+    
+    .a_xaxis {
+        position: absolute;
+        left: 90px;
+        bottom: -50px;
+        font-size: 10px;
+        transform: rotate(315deg);
+    }
+    
+    .b_xaxis {
+        position: absolute;
+        left: 150px;
+        bottom: -50px;
+        font-size: 10px;
+        transform: rotate(315deg);
+    }
+    
+    .c_xaxis {
+        position: absolute;
+        font-size: 10px;
+        left: 210px;
+        bottom: -50px;
+        transform: rotate(315deg);
+    }
+    .d_xaxis{
+        position: absolute;
+        font-size: 10px;
+        left: 265px;
+        bottom: -50px;
+        transform: rotate(315deg);
+    }
+    .e_xaxis{
+        position: absolute;
+        font-size: 10px;
+        left: 310px;
+        bottom: -50px;
+        transform: rotate(315deg);
+    }
+    .xaxis_label{
+        position: absolute;
+        bottom: -90px;
+        left: 50%;
+        font-weight: 600;
+    }
+}

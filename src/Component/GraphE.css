@@ -1,0 +1,76 @@
+.graphE_Body{
+    display: flex;
+}
+.box1{
+    width: 50%;
+    
+}
+
+#graphe_title{
+    margin: 30px 0;
+    text-align: center;
+}
+.flexE_a, .flexE_b, .flexE_c, .flexE_d{
+    display: flex;
+    margin-left: 50px;
+    padding-top: 10px;
+}
+.flexE_a h3, .flexE_b h3, .flexE_c h3, .flexE_d h3{
+    padding-top: 20px;
+    padding-right: 10px;
+    width: 150px;
+}
+.flexa, .flexb, .flexc, .flexd{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    margin: 5px;
+    width: 80%;
+    padding: 5px 0;
+    
+
+}
+.flexa h6, .flexb h6, .flexc h6, .flexd h6 {
+    margin: 15px 10px 0 10px;
+}    
+.flexa p, .flexb p, .flexc p, .flexd p {
+    margin: 0px 10px 10px 10px;
+}   
+.flexE_a h3{
+    color: #f9a300;
+    font-size: 40px;
+}
+.flexE_b h3{
+    color: #8bc226;
+    font-size: 40px;
+}
+.flexE_c h3{
+    color: #0b9f91;
+    font-size: 40px;
+}
+.flexE_d h3{
+    color: #0084c7;
+    font-size: 40px;
+}
+
+@media (max-width: 992px) {
+    .graphE_Body{
+    flex-direction: column;
+    margin: 0 auto;
+    }
+    .box1{
+     
+        
+        width: 400px;
+        height: 450px;
+    }
+}
+@media (max-width: 500px) {
+    .box1{
+        width: 300px ;
+        height: 400px;
+    }
+}
+/* @media (max-width: 400px) {
+    .box1{
+        width: 100% ;
+    }
+} */

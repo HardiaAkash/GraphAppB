@@ -1,0 +1,440 @@
+.graphA_content {
+    margin: 0 auto;
+
+
+}
+
+.graphA_body {
+    margin: 0 auto;
+    width: 600px;
+    position: relative;
+}
+
+.graphA_body img {
+
+    width: 600px;
+    margin-top: 40px;
+}
+
+#posi_1 {
+    position: absolute;
+    top: 120px;
+    width: 100px;
+    left: 21%;
+    text-align: center;
+    color: white;
+
+
+}
+
+#posi_1 h1 {
+    font-size: 32px;
+    font-weight: 600;
+
+}
+
+#posi_2 {
+    position: absolute;
+    font-weight: 400;
+    top: 220px;
+    right: 13%;
+    width: 100px;
+    text-align: center;
+    color: white;
+}
+
+#posi_2 h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#posi_3 {
+    position: absolute;
+    width: 100px;
+    bottom: 75px;
+    right: 22%;
+
+    text-align: center;
+    color: white;
+}
+
+#posi_3 h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#posi_4 {
+    position: absolute;
+
+    bottom: 175px;
+    left: 14%;
+
+    width: 100px;
+    color: white;
+}
+
+
+#posi_4 h1 {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+
+.posi_p1 {
+    position: absolute;
+    top: 130px;
+    text-align: center;
+
+    color: white;
+    width: 120px;
+    left: 40%;
+}
+
+.posi_p2 {
+    position: absolute;
+    top: 280px;
+    text-align: left;
+    right: 13%;
+    height: auto;
+    color: white;
+    width: 120px;
+
+}
+
+.posi_p2 p {
+    margin-left: 5px;
+}
+
+.posi_p3 {
+    position: absolute;
+    width: 120px;
+    top: 450px;
+    right: 40%;
+    text-align: center;
+
+    color: white;
+}
+
+.posi_p4 {
+    position: absolute;
+    width: 120px;
+    top: 280px;
+    left: 13%;
+
+
+    color: white;
+}
+
+.posi_p4 p {
+    margin-left: 5px;
+}
+
+.center_contentA {
+    width: 120px;
+    position: absolute;
+    top: 45%;
+    left: 39%;
+    text-align: center;
+    
+}
+
+.center_contentA h4 {
+    line-height: 0px;
+    font-size: 30px;
+    margin-bottom: 25px;
+    color: #065381;
+}
+
+.center_contentA h5 {
+    /* line-height: 0px; */
+    font-size: 21px;
+    margin: 0;
+    color: #77012b;
+    
+}
+
+.center_contentA p {
+    margin: 10px 0 0 0;
+    font-size: 10px;
+}
+
+@media (max-width: 617px) {
+    .graphA_body {
+        margin: 0 auto;
+        width: 400px;
+        position: relative;
+    }
+
+    .graphA_body img {
+
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    #posi_1 {
+        position: absolute;
+        top: 95px;
+
+        left: 25%;
+        width: 50px;
+
+    }
+
+    #posi_1 h1 {
+        font-size: 25px;
+    }
+
+    #posi_2 {
+        position: absolute;
+        font-weight: 400;
+        top: 150px;
+        right: 13%;
+        font-size: 40px;
+        width: 50px;
+
+        color: white;
+    }
+
+    #posi_2 h1 {
+        font-size: 25px;
+    }
+
+    #posi_3 {
+        position: absolute;
+        font-weight: 400;
+        bottom: 55px;
+        width: 50px;
+        right: 24%;
+        font-size: 40px;
+
+        color: white;
+    }
+
+    #posi_3 h1 {
+        font-size: 25px;
+    }
+
+    #posi_4 {
+        position: absolute;
+        font-weight: 400;
+        bottom: 100px;
+        left: 13%;
+        font-size: 40px;
+        width: 50px;
+        color: white;
+    }
+
+    #posi_4 h1 {
+        font-size: 25px;
+    }
+
+    .posi_p1 {
+        position: absolute;
+        top: 100px;
+        color: white;
+        width: 90px;
+        font-size: 12px;
+        left: 40%;
+    }
+
+    .posi_p2 {
+        position: absolute;
+        top: 200px;
+        right: 14%;
+        font-size: 12px;
+        color: white;
+        width: 75px;
+
+    }
+
+    .posi_p3 {
+        position: absolute;
+
+        top: 310px;
+        right: 38%;
+
+
+        font-size: 12px;
+        color: white;
+        width: 90px;
+    }
+
+    .posi_p4 {
+        position: absolute;
+        width: 100px;
+        top: 200px;
+        left: 14%;
+
+
+        font-size: 12px;
+        color: white;
+        width: 75px;
+    }
+
+    .center_contentA {
+        width: 100px;
+        position: absolute;
+        top: 45%;
+        left: 38%;
+        text-align: center;
+    }
+
+    .center_contentA h4 {
+        line-height: 0px;
+        font-size: 20px;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        color: #065381;
+    }
+
+    .center_contentA h5 {
+        line-height: 20px;
+        font-size: 15px;
+        margin: 0;
+        color: #77012b;
+    }
+
+    .center_contentA p {
+        margin: 10px 0 0 0;
+        font-size: 10px;
+    }
+}
+
+
+@media (max-width: 400px) {
+    .graphA_body {
+        margin: 0 auto;
+        width: 300px;
+        position: relative;
+    }
+
+    .graphA_body img {
+
+        width: 300px;
+        margin-top: 40px;
+    }
+
+    #posi_1 {
+        position: absolute;
+        top: 85px;
+        font-weight: 400;
+        left: 22%;
+    
+    
+        color: white;
+    }
+    #posi_1 h1 {
+        font-size: 20px;
+    }
+
+    #posi_2 {
+        position: absolute;
+        font-weight: 400;
+        top: 125px;
+        right: 12%;
+        font-size: 25px;
+
+        color: white;
+    }
+    #posi_2 h1 {
+        font-size: 20px;
+    }
+
+
+    #posi_3 {
+        position: absolute;
+        
+        bottom: 37px;
+        right: 22%;
+        
+
+        
+    }
+    #posi_3 h1 {
+        font-size: 20px;
+    }
+
+    #posi_4 {
+        position: absolute;
+        font-weight: 400;
+        bottom: 75px;
+        left: 13%;
+        font-size: 25px;
+
+        color: white;
+    }
+    #posi_4 h1 {
+        font-size: 20px;
+    }
+
+    .posi_p1 {
+        position: absolute;
+        top: 85px;
+        color: white;
+        width: 60px;
+        font-size: 9px;
+        left: 40%;
+    }
+
+    .posi_p2 {
+        position: absolute;
+        top: 160px;
+        right: 13%;
+        font-size: 9px;
+        color: white;
+        width: 60px;
+
+    }
+
+    .posi_p3 {
+        position: absolute;
+
+        top: 245px;
+        right: 39%;
+
+
+        font-size: 9px;
+        color: white;
+        width: 60px;
+    }
+
+    .posi_p4 {
+        position: absolute;
+
+        top: 160px;
+        left: 14%;
+
+
+        font-size: 9px;
+        color: white;
+        width: 60px;
+    }
+
+    .center_contentA {
+        width: 80px;
+        position: absolute;
+        top: 47%;
+        left: 37%;
+        text-align: center;
+    }
+
+    .center_contentA h4 {
+        line-height: 0px;
+        font-size: 15px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+        color: #065381;
+    }
+
+    .center_contentA h5 {
+        line-height: 10px;
+        font-size: 12px;
+        margin: 0;
+        color: #77012b;
+    }
+
+    .center_contentA p {
+        margin: 10px 0 0 0;
+        font-size: 8px;
+    }
+}
